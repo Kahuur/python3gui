@@ -1,0 +1,12 @@
+from tkinter import *
+
+aken = Tk()
+aken.title('League Of Legends')
+tekst = Label(aken, text="Tony Lehtsalu", font="Tahoma 16 bold italic", fg="light blue", bg="deep pink", pady=10, padx=30).pack()
+tekst = Label(aken, text="IT22", font="Tahoma 16 bold italic", fg="light blue", bg="deep pink", pady=10, padx=30).pack()
+tekst = Label(aken, text="2023", font="Tahoma 16 bold italic", fg="light blue", bg="deep pink", pady=10, padx=30).pack()
+aken.resizable(0,0)
+aken.iconbitmap("favicon.ico")
+aken.configure(background='deep pink')
+
+aken.mainloop()
